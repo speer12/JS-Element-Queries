@@ -1,0 +1,65 @@
+body{
+	background: #dddddd;
+}
+
+#wrapper{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.span4{
+	width: 33.3%;
+	float:left;
+	margin-bottom: 20px;
+}
+
+.span6{
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.testimonial, .alternate{
+	text-align: left;
+}
+
+.testimonial .text, .alternate .text{
+	font-size: 21px;
+	display:block;
+	clear:both;
+	padding: 0 10px;
+}
+
+.testimonial .attribution, .alternate .attribution{
+	clear:both;
+	display:block;
+	text-align: right;
+	padding: 0 10px;
+	font-style: italic;
+}
+
+.testimonial.lt-500, .alternate.lt-500{
+	text-align: center;
+}
+
+.testimonial.lt-500 .text, .alternate.lt-500 .text{
+	font-size: 16px;
+}
+
+.testimonial .hidden, .alternate .hidden{
+  display:none;
+  font-weight: bold;
+}
+
+.testimonial.lt-500.gt-300 .hidden, .alternate.lt-500.gt-300 .hidden{
+  display: block;
+}
+
+.testimonial.lt-200 .text, .testimonial.lt-200 .attribution, .alternate.lt-200 .attribution, .alternate.lt-200 .text{
+	font-size: 10px;
+}
+
+.testimonial.lt-200 .attribution, .alternate.lt-200 .attribution{
+  font-weight: bold;
+}
+
