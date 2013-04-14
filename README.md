@@ -20,13 +20,7 @@ This will cause my article to change to center-aligned text when <b>the article 
 
 ## Installation
 
-To install, simply make sure to load Jquery, then simply link to the elment.queries.js file in the head of your document. Then within your HTML head, add a title attribute of "eq_stylesheet". This allows the JS to identify it as containing our custom element query tags. So your head will look like this:
-
-<pre>
-< link href="css/style.css" rel="stylesheet" title="eq_stylesheet" type="text/css"/>
-< script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript">< /script>
-< script src="js/element.queries.js" type="text/javascript">< /script>
-</pre>
+To install, simply make sure to load Jquery, then simply link to the elment.queries.js file in the head of your document. Then within your HTML head, add a title attribute of "eq_stylesheet". This allows the JS to identify it as containing our custom element query tags. 
 
 
 Then simply add tags into your CSS. Currently the only supported tags are Greater Than (gt) and Less Than (lt) as seen below:
